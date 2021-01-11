@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const dbURI = 'mongodb+srv://Clim:Clim@cluster0-dzlor.mongodb.net/test?retryWrites=true&w=majority';
+const dbURI = 'mongodb+srv://password:username@cluster0-dzlor.mongodb.net/test?retryWrites=true&w=majority';
 
 mongoose.Promise = global.Promise;
 mongoose.connect(dbURI, {dbName: 'projectDB'});
