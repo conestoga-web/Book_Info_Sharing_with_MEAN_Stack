@@ -110,7 +110,7 @@ debugger
     }
   }
 
-  @ViewChild('picker', {static: false}) datepicker: MatDatepicker<Date>;
+  @ViewChild('picker') datepicker: MatDatepicker<Date>;
 
   public uploader: FileUploader = new FileUploader({
     url: 'https://book-info-sharing.herokuapp.com/api/upload',

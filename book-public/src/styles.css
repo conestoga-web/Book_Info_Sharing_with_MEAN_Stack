@@ -9,6 +9,7 @@ legend {
 .navbar {
   background-color: #5F6A6A !important;
   border-color: #911821 !important;
+  padding-left: 100px;
 }
 .navbar-light .navbar-brand {
   font-family: 'Lobster', cursive;
@@ -97,8 +98,12 @@ body {
 }
 
 body {
-  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  width: 100%;
 }
 
 a {

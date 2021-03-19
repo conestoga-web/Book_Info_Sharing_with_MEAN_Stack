@@ -21,7 +21,7 @@ import { HistoryService } from '../history.service';
       
       <div class="row"></div>
       
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-12">
         
       <div class="item pic"><img src="https://book-info-sharing.herokuapp.com/routes/upload/{{ newBook?.image }}" width="150" height="150" style="float:left; margin-right:50px"></div>
 

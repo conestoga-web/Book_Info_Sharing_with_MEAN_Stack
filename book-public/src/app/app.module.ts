@@ -65,24 +65,24 @@ import {HistoryService} from "./history.service";
     BrowserAnimationsModule,
     AppRoutingModule,
     RouterModule.forRoot([
-      {
+    {
         path: '',
         component: HomeListComponent
-      }, {
+    }, {
         path: 'create',
         component: CreateComponent
-      }, {
+    }, {
         path: 'book/:bookid',
         component: DetailsPageComponent
-      }, {
+    }, {
         path: 'book/:bookid/reviews/:reviewid',
         component: UpdateReviewComponent
-      },
-      {
+    },
+    {
         path: 'updatebook/:bookid',
         component: UpdateBookComponent
-      }
-    ]),
+    }
+], { relativeLinkResolution: 'legacy' }),
     MatDatepickerModule,
     MatNativeDateModule,
     FileUploadModule,
