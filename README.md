@@ -23,7 +23,7 @@
 **2. Data Access Authority by Classified Account Grades**  
 &nbsp; &nbsp; * User without login: 	just can get data about books and reviews <br />
 &nbsp; &nbsp; * User with login:	can create reviews on books and edit only one’s own reviews <br />
-&nbsp; &nbsp; * administrator (admin):	can create, read, update, delete book information <br />
+&nbsp; &nbsp; * administrator (username: 'stevejobs', pw: '1234qwer'):	can create, read, update, delete book information <br />
 
 **3. Product Search**  
 &nbsp; &nbsp; * Category search by genre <br />
